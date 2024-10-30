@@ -1,0 +1,12 @@
+#52-祖嘉怡-P05-4
+dic1={'A':'','B':''}
+#从这里开始添加代码，实现题目要求
+tmp=tuple(map(int,input().split()))
+dic1['A']=tmp
+a,b=tmp
+tmp=tuple(map(int,input().split()))
+dic1['B']=tmp
+c,d=tmp
+dic1['S']=int((((a-c)**2+(b-d)**2)**0.5))
+#代码结束
+print(dic1)
